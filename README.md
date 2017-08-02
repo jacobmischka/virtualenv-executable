@@ -9,6 +9,6 @@ $ [ -l <venv exec path (default ".venv/bin/python3")> ] <script> <output executa
 
 Example:
 
-```
+```bash
 $ create-venv-executable ~/projects/project-name/script-name.py ~/.local/bin/executable-name
 ```
