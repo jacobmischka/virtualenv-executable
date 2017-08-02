@@ -3,7 +3,7 @@ Creates an executable launcher for a virtualenv-using python script.
 Usage:
 
 ```bash
-$ [ -l <venv exec path (default ".venv/bin/python3")> ] <script> <output executable path>
+$ [ -e <venv exec path (default ".venv/bin/python3")> ] <script> <output executable path>
 
 ```
 
