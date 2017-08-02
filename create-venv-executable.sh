@@ -30,8 +30,7 @@ SCRIPT_NAME="$(basename "$1")"
 
 EXECUTABLE_DEST="$2"
 
-echo "
-#!/bin/sh
+echo "#!/bin/sh
 
 $SCRIPT_DIR/$VENV_EXEC_PATH $SCRIPT_DIR/$SCRIPT_NAME \"\$@\"
 " > "$EXECUTABLE_DEST"
